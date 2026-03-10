@@ -1,0 +1,18 @@
+{
+    "eval_bleu-4": 97.67227444444445,
+    "eval_model_preparation_time": 0.0144,
+    "eval_rouge-1": 97.83847222222224,
+    "eval_rouge-2": 97.41412333333334,
+    "eval_rouge-l": 99.20205333333332,
+    "eval_runtime": 367.2346,
+    "eval_samples_per_second": 0.245,
+    "eval_steps_per_second": 0.123,
+    "predict_bleu-4": 97.67227444444445,
+    "predict_model_preparation_time": 0.0226,
+    "predict_rouge-1": 97.83847222222224,
+    "predict_rouge-2": 97.41412333333334,
+    "predict_rouge-l": 99.20205333333332,
+    "predict_runtime": 382.0872,
+    "predict_samples_per_second": 0.236,
+    "predict_steps_per_second": 0.118
+}

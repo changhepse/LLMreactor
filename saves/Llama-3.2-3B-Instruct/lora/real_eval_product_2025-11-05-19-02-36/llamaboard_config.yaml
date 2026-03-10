@@ -1,0 +1,20 @@
+eval.batch_size: 2
+eval.cutoff_len: 1024
+eval.dataset:
+- real_val_production_CSTR
+eval.dataset_dir: LLaMA-Factory/data
+eval.max_new_tokens: 512
+eval.max_samples: '100000'
+eval.output_dir: real_eval_product_2025-11-05-19-02-36
+eval.predict: true
+eval.temperature: 0.95
+eval.top_p: 0.7
+top.booster: auto
+top.checkpoint_path:
+- real_train_2025-08-19-13-52-49
+top.finetuning_type: lora
+top.model_name: Llama-3.2-3B-Instruct
+top.quantization_bit: none
+top.quantization_method: bnb
+top.rope_scaling: none
+top.template: llama3

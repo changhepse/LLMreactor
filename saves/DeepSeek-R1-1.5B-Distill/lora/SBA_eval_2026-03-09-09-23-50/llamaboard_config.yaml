@@ -1,0 +1,20 @@
+eval.batch_size: 2
+eval.cutoff_len: 1024
+eval.dataset:
+- generalization_SBA_val
+eval.dataset_dir: LLaMA-Factory/data
+eval.max_new_tokens: 1024
+eval.max_samples: '100000'
+eval.output_dir: SBA_eval_2026-03-09-09-23-50
+eval.predict: true
+eval.temperature: 0.95
+eval.top_p: 0.7
+top.booster: auto
+top.checkpoint_path:
+- train_2026-03-09-09-23-50
+top.finetuning_type: lora
+top.model_name: DeepSeek-R1-1.5B-Distill
+top.quantization_bit: none
+top.quantization_method: bnb
+top.rope_scaling: none
+top.template: deepseekr1
